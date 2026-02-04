@@ -1,30 +1,33 @@
-#LeetCode Python Solutions
+# LeetCode Python Solutions
 A simple Python project for experimenting with solutions to various LeetCode problems.
 The goal of this repository is to provide clear, test‑driven implementations using modern Python tooling.
 
-#Features
+# Features
 
-#Solutions implemented in Python
+# Solutions implemented in Python
 Tests written with pytest
 Managed and executed using uv, a fast Python package and project manager
 Clean project structure suitable for experimentation or extension
 
-#Getting Started
-##Prerequisites
+# Getting Started
+## Prerequisites
 Make sure you have uv installed:
+```bash
 pip install uv
-
+```
 Or follow installation instructions from the official uv repository.
-##Install Dependencies
+## Install Dependencies
 From the project root, run:
+```bash
 uv sync
-
+```
 This will create a virtual environment and install all dependencies.
-#R#unning Tests
+## Running Tests
 Execute all tests with:
+```bash
 uv run pytest
-
-#Project Structure
+```
+# Project Structure
 /
 ├── src/
 │   └── ... LeetCode solution modules
@@ -33,6 +36,6 @@ uv run pytest
 ├── pyproject.toml
 └── README.md
 
-#License
+# License
 This project is open for personal learning and experimentation.
 Feel free to extend it for your own use.

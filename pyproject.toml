@@ -1,7 +1,7 @@
 [project]
-name = "py-project"
+name = "python_leetcode_tests"
 version = "0.1.0"
-description = "Add your description here"
+description = "Test solutions to coding problems"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []

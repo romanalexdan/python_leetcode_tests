@@ -28,14 +28,14 @@ Execute all tests with:
 uv run pytest
 ```
 # Project Structure
-/
+```bash
 ├── src/
 │   └── ... LeetCode solution modules
 ├── tests/
 │   └── ... pytest test files
 ├── pyproject.toml
 └── README.md
-
+```
 # License
 This project is open for personal learning and experimentation.
 Feel free to extend it for your own use.
